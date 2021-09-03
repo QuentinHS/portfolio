@@ -1,0 +1,20 @@
+body {
+  display: grid;
+  grid-template-columns: 5em auto 5em;
+  grid-template-areas: 
+  " header header header"
+  ". main ."
+  "footer footer footer";
+}
+
+.hero-banner {
+  grid-area: header;
+}
+
+.homepage-main-content {
+  grid-area: main;
+}
+
+.homepage-footer {
+  grid-area: footer;
+}

@@ -1,11 +1,22 @@
-.hero_banner {
-background: coral;
-min-height: 100vh;
+@use "../abstracts/mixins";
+
+.hero-banner {
+  background: coral;
+  min-height: 100vh;
   &__nav {
-   
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
   }
+
+  @include mixins.respond(tablet) {
+    background: green;
+  }
+
+   @include mixins.respond(desktop) {
+    background: yellowgreen;
+  }
+
+
+
 }

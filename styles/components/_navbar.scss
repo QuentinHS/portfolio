@@ -1,15 +1,11 @@
-.header__navbar {
+.hero-banner__navbar {
   display: flex;
-  
+
   gap: 0px 5px;
   &__link {
-  list-style: none;
-  a {
-    text-decoration: none;
+    list-style: none;
+    a {
+      text-decoration: none;
+    }
   }
 }
-
-}
-
-
-
