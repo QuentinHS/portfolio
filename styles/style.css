@@ -99,7 +99,7 @@ body {
   grid-area: main;
 }
 
-.homepage-footer {
+.footer {
   grid-area: footer;
 }
 
@@ -268,6 +268,50 @@ body {
   text-decoration: underline;
   color: #394047;
 }
+.footer {
+  color: white;
+  background: #212529;
+}
+.footer .footer-wrapper {
+  display: flex;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+  flex-wrap: wrap;
+}
+.footer__header {
+  flex: 1 1 40rem;
+}
+.footer__nav {
+  display: flex;
+  list-style: none;
+  flex: 1 1 40rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__nav i {
+  color: white;
+  font-size: 2rem;
+}
+
+.homepage-main-content__skills {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.homepage-main-content__skills .card {
+  text-align: center;
+  flex: 1 1 25rem;
+  min-height: 40vh;
+  margin: 2rem 5rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
 .btn {
   background-color: #212529;
   color: #FFF;

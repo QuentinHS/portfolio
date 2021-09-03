@@ -8,6 +8,7 @@ body {
   " header header header"
   ". main ."
   "footer footer footer";
+  
 }
 
 .hero-banner {
@@ -18,7 +19,7 @@ body {
   grid-area: main;
 }
 
-.homepage-footer {
+.footer {
   grid-area: footer;
 }
 

@@ -1,0 +1,37 @@
+@use "../abstracts/variables";
+@use "../abstracts/mixins";
+
+
+.footer {
+  color: white;
+  background: variables.$dark-grey;
+
+  .footer-wrapper {
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+  }
+  
+  &__header {
+    flex: 1 1 40rem;
+  }
+
+  &__nav {
+    display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+
+
+    i {
+      color: white;
+      font-size: 2rem;
+    }
+
+  }
+}
