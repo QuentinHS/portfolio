@@ -130,10 +130,8 @@ body {
 }
 
 .hero-banner {
-  background-image: url(https://placekitten.com/800);
-  background-repeat: no-repeat;
+  background: url(../assets/images/hero-background-dark.jpg) no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
   min-height: 100vh;
 }
 .hero-banner .container {
@@ -153,7 +151,6 @@ body {
 }
 @media only screen and (min-width: 600px) {
   .hero-banner {
-    background-image: url(https://placekitten.com/1000);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -161,7 +158,6 @@ body {
 }
 @media only screen and (min-width: 1000px) {
   .hero-banner {
-    background-image: url(https://placekitten.com/1600);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -171,10 +167,11 @@ body {
   }
 }
 .hero-banner__content {
-  background: rgba(87, 79, 79, 0.37);
   text-align: center;
   align-self: center;
   margin: auto 0;
+  color: #f8f9fa;
+  text-shadow: 3px 5px 40px rgba(0, 0, 0, 0.3);
 }
 .hero-banner__content h1 {
   font-size: 3rem;
@@ -193,9 +190,10 @@ body {
   font-size: 3rem;
   padding: 0 0.15em;
   cursor: pointer;
+  color: #e9ecef;
 }
 .hero-banner__icons i:hover {
-  color: #2d3339;
+  color: #c4ccd4;
 }
 .hero-banner__icons i:active {
   transform: translateY(3px);
@@ -212,7 +210,7 @@ body {
   }
   .burger span {
     padding: 0.2rem 1.2rem;
-    background: #212529;
+    background: #e9ecef;
     margin: 0.4rem 0rem;
     display: block;
     transition: all 0.5s ease;
@@ -371,7 +369,7 @@ body {
 }
 
 .btn {
-  background-color: #212529;
+  background-color: #32383e;
   color: #FFF;
   text-decoration: none;
   padding: 0.75rem 1.2rem;
@@ -400,7 +398,7 @@ body {
   color: #212529;
 }
 .btn:hover {
-  background-color: #2d3339;
+  background-color: #3b424a;
 }
 .btn:active {
   transform: translateY(2px);
