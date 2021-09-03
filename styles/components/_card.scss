@@ -1,18 +1,44 @@
- .homepage-main-content__skills {
-   width: 90%;
-  margin: auto;
+@use "../abstracts/variables";
+@use "../abstracts/mixins";
+
+.homepage-main-content__skills {
+  width: 100%;
+  background: variables.$mid-grey;
+  padding: 0 5em;
   display: flex;
   min-height: 70vh;
   align-items: center;
   flex-wrap: wrap;
+  
+  
 
   .card {
-      text-align: center;
-  flex: 1 1 25rem;
-  min-height: 40vh;
-  margin: 2rem 5rem;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
-  }
+    text-align: center;
+    flex: 1 0 15rem;
+    min-height: 20vh;
+    padding: 2em;
+  
+    margin: 2rem 0rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 20px rgba(0, 0, 0, 0.2);
+    background: variables.$darker-grey;
+    color: variables.$light-grey;
 
- }
- 
+    h4 {
+     font-size: variables.$secondary-text;
+    }
+
+    p {
+      font-size: variables.$tertiary-text;
+      font-weight: 300;
+    }
+
+    @include mixins.respond(tablet) {
+      margin: 2rem 2rem;
+    }
+
+    @include mixins.respond(desktop) {
+      margin: 1rem 3rem;
+   
+    }
+  }
+}

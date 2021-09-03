@@ -3,12 +3,12 @@
 
 body {
   display: grid;
-  grid-template-columns: 5em auto 5em;
+  grid-template-columns: auto auto auto;
   grid-template-areas: 
   " header header header"
-  ". main ."
+  "main main main"
   "footer footer footer";
-  
+    background: variables.$lightest-grey;
 }
 
 .hero-banner {
@@ -17,13 +17,17 @@ body {
 
 .homepage-main-content {
   grid-area: main;
+ 
 }
 
 .footer {
   grid-area: footer;
 }
 
+
+
 .homepage-main-content__about {
+ padding: 5em;
   article {
     font-size: variables.$body-text;
     margin: 1em 0;
@@ -39,6 +43,8 @@ body {
     }
 
   }
+
+
 
   .img-container {
     padding-top: 2em;
