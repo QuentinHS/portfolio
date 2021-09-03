@@ -1,0 +1,11 @@
+.hero_banner {
+background: coral;
+min-height: 100vh;
+  &__nav {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+}
