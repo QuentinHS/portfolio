@@ -1,7 +1,7 @@
 @use "../abstracts/variables";
 /* Burger Menu */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .burger {
   position: relative;
   display: block;
@@ -10,7 +10,7 @@
   padding-right: 2em;
 
   span {
-    padding: 0.2rem 2rem;
+    padding: 0.2rem 1.3rem;
     background: variables.$dark-grey;
     margin: 0.5rem 0rem;
     display: block;

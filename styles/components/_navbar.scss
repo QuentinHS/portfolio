@@ -1,8 +1,9 @@
 @use "../abstracts/variables";
+@use "../abstracts/mixins";
 
 .hero-banner__navbar {
   display: flex;
-
+ 
   gap: 0 2em;
   &__link {
     list-style: none;
@@ -19,4 +20,9 @@
 
 
   }
+
+   @include mixins.respond(desktop) {
+    
+   }
+
 }

@@ -24,6 +24,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1em;
+    
+   
   }
 
   @include mixins.respond(tablet) {
@@ -32,9 +34,14 @@
   }
 
   @include mixins.respond(desktop) {
-    background: yellowgreen;
     background-image: url(https://placekitten.com/1600);
     @include mixins.hero-image;
+    &__nav {
+      .hero-banner__navbar {
+        margin-left: auto;
+      }
+      
+    }
   }
 
   &__content {
