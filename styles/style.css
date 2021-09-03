@@ -188,6 +188,12 @@ body {
   padding: 0 0.1em;
   cursor: pointer;
 }
+.hero-banner__icons i:hover {
+  color: #2d3339;
+}
+.hero-banner__icons i:active {
+  transform: translateY(3px);
+}
 
 /* Burger Menu */
 @media screen and (max-width: 900px) {
@@ -256,6 +262,10 @@ body {
   font-size: 1.6rem;
   color: #212529;
 }
+.hero-banner__navbar__link a:hover {
+  text-decoration: underline;
+  color: #394047;
+}
 
 .btn {
   background-color: #212529;
@@ -283,9 +293,11 @@ body {
   background-color: #e9ecef;
   color: #212529;
 }
+.btn:hover {
+  background-color: #2d3339;
+}
 .btn:active {
   transform: translateY(3px);
-  background-color: #394047;
 }
 
 /*# sourceMappingURL=style.css.map */

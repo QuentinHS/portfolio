@@ -29,10 +29,12 @@
     color: variables.$dark-grey;
   }
 
-
+ &:hover {
+   background-color: hsl(210, 11%, 20%);
+ }
   &:active {
     transform: translateY(3px);
-    background-color: hsl(210, 11%, 25%);
+  
   }
 
 }

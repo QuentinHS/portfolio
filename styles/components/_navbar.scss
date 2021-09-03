@@ -12,6 +12,11 @@
       color: variables.$dark-grey;
     }
 
+    a:hover {
+      text-decoration: underline;
+      color: hsl(210, 11%, 25%);
+    }
+
 
   }
 }
