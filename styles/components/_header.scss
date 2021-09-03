@@ -1,8 +1,19 @@
 @use "../abstracts/mixins";
+@use "../abstracts/variables";
 
 .hero-banner {
-  background: coral;
+  background-image: url(https://placekitten.com/800);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
   &__nav {
     display: flex;
     justify-content: space-between;
@@ -10,13 +21,38 @@
   }
 
   @include mixins.respond(tablet) {
-    background: green;
+    background-image: url(https://placekitten.com/1000);
+    @include mixins.hero-image;
   }
 
-   @include mixins.respond(desktop) {
+  @include mixins.respond(desktop) {
     background: yellowgreen;
+    background-image: url(https://placekitten.com/1600);
+    @include mixins.hero-image;
   }
 
+  &__content {
+    background: rgba(87, 79, 79, 0.37);
+    text-align: center;
+    align-self: center;
+    margin: auto 0;
 
+    h1 {
+      font-size: variables.$main-header;
+    }
+    h2 {
+      font-size: variables.$sub-header;
+    }
 
+    p {
+      font-size: variables.$body-text;
+    }
+  }
+
+  &__icons {
+    i {
+      font-size: 4rem;
+      
+    }
+  }
 }

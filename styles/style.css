@@ -76,6 +76,7 @@ select {
 body {
   font-family: "Nunito", sans-serif;
   font-size: 62.5%;
+  color: #212529;
 }
 
 .container {
@@ -103,8 +104,16 @@ body {
 }
 
 .hero-banner {
-  background: coral;
+  background-image: url(https://placekitten.com/800);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
+}
+.hero-banner .container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .hero-banner__nav {
   display: flex;
@@ -113,13 +122,38 @@ body {
 }
 @media only screen and (min-width: 600px) {
   .hero-banner {
-    background: green;
+    background-image: url(https://placekitten.com/1000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 @media only screen and (min-width: 900px) {
   .hero-banner {
     background: yellowgreen;
+    background-image: url(https://placekitten.com/1600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
+}
+.hero-banner__content {
+  background: rgba(87, 79, 79, 0.37);
+  text-align: center;
+  align-self: center;
+  margin: auto 0;
+}
+.hero-banner__content h1 {
+  font-size: 3rem;
+}
+.hero-banner__content h2 {
+  font-size: 2rem;
+}
+.hero-banner__content p {
+  font-size: 1.6rem;
+}
+.hero-banner__icons i {
+  font-size: 4rem;
 }
 
 /* Burger Menu */
@@ -127,6 +161,8 @@ body {
   position: relative;
   display: block;
   cursor: pointer;
+  padding-top: 1em;
+  padding-right: 2em;
 }
 
 .burger span {
@@ -182,6 +218,36 @@ body {
 }
 .hero-banner__navbar__link a {
   text-decoration: none;
+}
+
+.btn {
+  background-color: #212529;
+  color: #FFF;
+  text-decoration: none;
+  padding: 0.75rem 1.2rem;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.1s ease;
+}
+.btn--orange {
+  background-color: #fd7e14;
+}
+.btn--large {
+  padding: 1.1rem 1.9rem;
+}
+@media only screen and (min-width: 600px) {
+  .btn--large {
+    font-size: 1.25rem;
+  }
+}
+.btn--light {
+  background-color: #e9ecef;
+  color: #212529;
+}
+.btn:active {
+  transform: translateY(3px);
+  background-color: #394047;
 }
 
 /*# sourceMappingURL=style.css.map */

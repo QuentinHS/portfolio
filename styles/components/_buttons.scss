@@ -1,0 +1,37 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
+.btn {
+  background-color: variables.$dark-grey;
+  color: #FFF;
+  text-decoration: none;
+  padding: .75rem 1.2rem;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+  transition: 0.1s ease;
+
+  &--orange {
+    background-color: variables.$main-color;
+  }
+
+  &--large {
+    padding: 1.1rem 1.9rem;
+
+    @include mixins.respond(tablet) {
+      font-size: 1.25rem;
+    }
+  }
+
+  &--light {
+    background-color: variables.$light-grey;
+    color: variables.$dark-grey;
+  }
+
+
+  &:active {
+    transform: translateY(3px);
+    background-color: hsl(210, 11%, 25%);
+  }
+
+}
