@@ -6,36 +6,29 @@
   background: variables.$mid-grey;
   padding: 2em;
   display: flex;
-  flex-direction: column;
+
   min-height: 70vh;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
-  // h3 {
-  //   font-size: variables.$sub-header;
-  //   color: variables.$dark-grey;
-  // }
+  h3 {
+    font-size: variables.$main-header;
+    color: variables.$dark-grey;
+    min-width: 100%;
+    
+  }
 
-  //   @include mixins.respond(tablet) {
-  //     flex-direction: row;
-  //     position: relative;
-  //     padding-top: 5em;
-  //     h3 {
-  //       position: absolute;
-  //       transform: translateX(-50%);
-  //       top: 0;
-  //       left: 50%;
-  //       font-size: variables.$main-header;
-  //     }
-  //   }
+    
 
+  
+
+   
   .card {
     text-align: center;
-    flex: 1 0 15rem;
+    flex: 1 0 20rem;
     min-height: 20vh;
     padding: 2em;
-  
-    margin: 1em 1em;
+    margin: 1em;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 20px rgba(0, 0, 0, 0.2);
     background: variables.$darker-grey;
     color: variables.$light-grey;
@@ -55,8 +48,22 @@
     }
 
     @include mixins.respond(desktop) {
-      margin: 1rem 3rem;
+      margin: 1em 3eem;
    
     }
+
   }
+
+   @media only screen and (min-width: 1270px) {
+         .card {
+           flex: 1 0 500px;
+         }
+    }
+
+     @media only screen and (min-width: 1800px) {
+         .card {
+           flex: 1 0 600px;
+         }
+    }
+
 }

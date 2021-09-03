@@ -321,18 +321,22 @@ body {
   background: #868e96;
   padding: 2em;
   display: flex;
-  flex-direction: column;
   min-height: 70vh;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
 }
+.homepage-main-content__skills h3 {
+  font-size: 3rem;
+  color: #212529;
+  min-width: 100%;
+}
 .homepage-main-content__skills .card {
   text-align: center;
-  flex: 1 0 15rem;
+  flex: 1 0 20rem;
   min-height: 20vh;
   padding: 2em;
-  margin: 1em 1em;
+  margin: 1em;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 20px rgba(0, 0, 0, 0.2);
   background: #343a40;
   color: #e9ecef;
@@ -352,7 +356,17 @@ body {
 }
 @media only screen and (min-width: 1000px) {
   .homepage-main-content__skills .card {
-    margin: 1rem 3rem;
+    margin: 1em 3eem;
+  }
+}
+@media only screen and (min-width: 1270px) {
+  .homepage-main-content__skills .card {
+    flex: 1 0 500px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .homepage-main-content__skills .card {
+    flex: 1 0 600px;
   }
 }
 
