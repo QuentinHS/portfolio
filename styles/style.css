@@ -274,12 +274,23 @@ body {
 }
 .footer .footer-wrapper {
   display: flex;
-  padding: 2rem;
-  width: 90%;
+  padding: 0 2rem 1rem 2rem;
+  max-width: 65%;
   margin: auto;
   align-items: center;
-  min-height: 10vh;
+  min-height: 5vh;
   flex-wrap: wrap;
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .footer .footer-wrapper {
+    max-width: 30em;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .footer .footer-wrapper {
+    max-width: 35em;
+  }
 }
 .footer__header {
   flex: 1 1 40rem;
@@ -287,13 +298,18 @@ body {
 .footer__nav {
   display: flex;
   list-style: none;
-  flex: 1 1 40rem;
+  flex: 1 1 30rem;
   justify-content: space-between;
   align-items: center;
 }
 .footer__nav i {
-  color: white;
+  color: #ced4da;
   font-size: 2rem;
+}
+.footer h5 {
+  font-size: 1rem;
+  color: #a6b3bf;
+  margin: 1rem 0;
 }
 
 .homepage-main-content__skills {
