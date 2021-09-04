@@ -10,12 +10,12 @@
     a {
       text-decoration: none;
       font-size: variables.$body-text;
-      color: variables.$dark-grey;
+      color: variables.$lightest-grey;
     }
 
     a:hover {
       text-decoration: underline;
-      color: hsl(210, 11%, 25%);
+      color: hsl(210, 17%, 86%);
     }
 
 
