@@ -270,6 +270,14 @@ body {
   text-decoration: underline;
   color: #d5dbe1;
 }
+#career-banner {
+  background-image: url(../assets/images/career-banner.jpg);
+}
+
+#blog-banner {
+  background-image: url(../assets/images/blog-banner.jpg);
+}
+
 .footer {
   color: white;
   background: #212529;

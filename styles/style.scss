@@ -6,10 +6,12 @@
 @use "layouts/index";
 @use "layouts/blog";
 @use "layouts/contact";
-@use "layouts/resume";
+@use "layouts/career";
 @use "components/header";
 @use "components/mobile-nav";
 @use "components/navbar";
+@use "components/career-header";
+@use "components/blog-header";
 @use "components/footer";
 @use "components/card";
 @use "components/buttons";
