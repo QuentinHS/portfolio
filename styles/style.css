@@ -129,6 +129,41 @@ body {
   object-fit: cover;
 }
 
+.career-main-content h2 {
+  padding: 2em;
+}
+.career-main-content .btn-container {
+  display: flex;
+  width: 96%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.career-content {
+  display: flex;
+  margin-top: 2em;
+}
+.career-content__partial {
+  padding: 3em;
+}
+.career-content__partial__body {
+  display: flex;
+}
+.career-content .career-details p:first-child {
+  padding-bottom: 1em;
+}
+.career-content .career-details h3 {
+  padding-bottom: 0.5em;
+}
+.career-content .career-details p:last-child {
+  padding-bottom: 3em;
+}
+.career-content .career-text {
+  padding-left: 10em;
+  padding-bottom: 3em;
+  max-width: 20em;
+}
+
 .hero-banner {
   background: url(../assets/images/hero-background-dark.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -285,7 +320,7 @@ body {
 .footer .footer-wrapper {
   display: flex;
   padding: 0 2rem 1rem 2rem;
-  max-width: 70%;
+  max-width: 80%;
   margin: auto;
   align-items: center;
   min-height: 5vh;

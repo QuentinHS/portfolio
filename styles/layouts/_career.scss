@@ -1,0 +1,50 @@
+.career-main-content {
+  h2 {
+    padding: 2em;
+  }
+
+  .btn-container {
+    
+    display: flex;
+   
+    width: 96%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+}
+
+.career-content {
+  display: flex;
+  margin-top: 2em;
+
+  &__partial {
+    padding: 3em;
+    &__body {
+      display: flex;
+    }
+
+  }
+
+  .career-details {
+    p:first-child {
+      padding-bottom: 1em;
+    }
+
+    h3 {
+      padding-bottom: .5em;
+    }
+
+    p:last-child {
+      padding-bottom: 3em;
+    }
+    
+  }
+
+
+  .career-text {
+    padding-left: 10em;
+    padding-bottom: 3em;
+    max-width: 20em;
+  }
+
+}
