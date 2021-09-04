@@ -1,50 +1,78 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
+
 .career-main-content {
-  h2 {
+ display: grid;
+ grid-template-rows: 5em auto auto 5em;
+ grid-template-areas: 
+ ". title . ."
+ ". education-button . ."
+ ". education education ."
+ ". career-button . ."
+ ". career career .";
+
+  .career-main-title {
+    grid-area: title;
+    font-size: variables.$sub-header;
+    text-align: center;
+  }
+
+  .btn-edu {
+    grid-area: education-button;
+   width: 88vw;
+   margin-left: 1em;
+   margin-right: .2em;
+  }
+
+  .career-content__partial__body {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    margin-bottom: 2em;
+  }
+
+  .career-content__partial__body:nth-child(2) {
+    margin-bottom: 1em;
+  }
+ 
+  .career-content__education {
+    grid-area: education;
     padding: 2em;
-  }
-
-  .btn-container {
-    
-    display: flex;
+    text-align: right;
+    font-size: variables.$tertiary-text;
    
-    width: 96%;
-    margin: 0 auto;
-    justify-content: space-between;
-  }
-}
-
-.career-content {
-  display: flex;
-  margin-top: 2em;
-
-  &__partial {
-    padding: 3em;
-    &__body {
-      display: flex;
-    }
-
   }
 
-  .career-details {
-    p:first-child {
-      padding-bottom: 1em;
+    .career-date {
+      padding-bottom: .6em;
+    
     }
 
-    h3 {
-      padding-bottom: .5em;
+    
+
+    .career-subtitle {
+      padding-bottom: 0.7em;
     }
 
-    p:last-child {
-      padding-bottom: 3em;
-    }
+    
+   .btn-car {
+    grid-area: career-button;
+    width: 88vw;
+    padding-bottom: 2em;
+   margin-left: 1em;
+   margin-right: .2em;
+   margin-top: 0;
+  }
+
+  .career-content__career {
+    grid-area: career;
+     padding: 2em;
+    text-align: right;
+    font-size: variables.$tertiary-text;
     
   }
 
-
-  .career-text {
-    padding-left: 10em;
-    padding-bottom: 3em;
-    max-width: 20em;
-  }
 
 }

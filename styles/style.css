@@ -129,39 +129,57 @@ body {
   object-fit: cover;
 }
 
-.career-main-content h2 {
-  padding: 2em;
+.career-main-content {
+  display: grid;
+  grid-template-rows: 5em auto auto 5em;
+  grid-template-areas: ". title . ." ". education-button . ." ". education education ." ". career-button . ." ". career career .";
 }
-.career-main-content .btn-container {
-  display: flex;
-  width: 96%;
-  margin: 0 auto;
-  justify-content: space-between;
+.career-main-content .career-main-title {
+  grid-area: title;
+  font-size: 2rem;
+  text-align: center;
 }
-
-.career-content {
-  display: flex;
-  margin-top: 2em;
+.career-main-content .btn-edu {
+  grid-area: education-button;
+  width: 88vw;
+  margin-left: 1em;
+  margin-right: 0.2em;
 }
-.career-content__partial {
-  padding: 3em;
-}
-.career-content__partial__body {
-  display: flex;
-}
-.career-content .career-details p:first-child {
+.career-main-content .career-content__partial__body {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
   padding-bottom: 1em;
+  padding-right: 1em;
+  margin-bottom: 2em;
 }
-.career-content .career-details h3 {
-  padding-bottom: 0.5em;
+.career-main-content .career-content__partial__body:nth-child(2) {
+  margin-bottom: 1em;
 }
-.career-content .career-details p:last-child {
-  padding-bottom: 3em;
+.career-main-content .career-content__education {
+  grid-area: education;
+  padding: 2em;
+  text-align: right;
+  font-size: 1.3rem;
 }
-.career-content .career-text {
-  padding-left: 10em;
-  padding-bottom: 3em;
-  max-width: 20em;
+.career-main-content .career-date {
+  padding-bottom: 0.6em;
+}
+.career-main-content .career-subtitle {
+  padding-bottom: 0.7em;
+}
+.career-main-content .btn-car {
+  grid-area: career-button;
+  width: 88vw;
+  padding-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 0.2em;
+  margin-top: 0;
+}
+.career-main-content .career-content__career {
+  grid-area: career;
+  padding: 2em;
+  text-align: right;
+  font-size: 1.3rem;
 }
 
 .hero-banner {
