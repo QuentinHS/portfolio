@@ -6,29 +6,54 @@
  grid-template-rows: 5em auto auto 5em;
  grid-template-areas: 
  ". title . ."
- ". education-button . ."
+ ". education-header . ."
  ". education education ."
- ". career-button . ."
+ ". work-header . ."
  ". career career .";
+ 
+.career-subheading {
+  background-color: hsl(210, 11%, 22%);
+  color: variables.$lightest-grey;
+  font-size: variables.$sub-header;
+  padding: .75rem 1.2rem;
+  margin-left: 20px;
+  margin-right: auto;
+  border-radius: 5px;
+ width: 90vw;
+ text-align: center;
+ @include mixins.respond(tablet) {
+     width: 80vw;
+     margin: 0 auto;
+ }
 
+  @include mixins.respond(desktop) {
+     width: 800px;
+     margin: 0 auto;
+ }
+} 
+
+.edu-heading {
+ grid-area: education-header;
+margin-top: 1em;
+}
+
+ .car-heading {
+   grid-area: work-header;
+   padding-bottom: 2em;
+ 
+ }
 
   .career-main-title {
     grid-area: title;
     font-size: variables.$sub-header;
     text-align: center;
+    margin-top: .5em;
+    padding-bottom: 1.5em;
+    width: 100vw;
+  
   }
 
-  .btn-edu {
-    grid-area: education-button;
-   width: 88vw;
-   margin-left: 1em;
-   margin-right: .2em;
-   @include mixins.respond(tablet) {
-     max-width:300px;
-     margin: 0 auto;
-   }
-  }
-
+ 
   .career-content__partial__body {
     border-bottom: 1px solid black;
     border-right: 1px solid black;
@@ -90,6 +115,8 @@
   .career-content__career {
     grid-area: career;
     padding: 2em;
+    padding-top: 0;
+    margin-top: 3em;
     text-align: right;
     font-size: variables.$tertiary-text;
      @include mixins.respond(tablet) {

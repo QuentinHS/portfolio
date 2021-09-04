@@ -132,24 +132,46 @@ body {
 .career-main-content {
   display: grid;
   grid-template-rows: 5em auto auto 5em;
-  grid-template-areas: ". title . ." ". education-button . ." ". education education ." ". career-button . ." ". career career .";
+  grid-template-areas: ". title . ." ". education-header . ." ". education education ." ". work-header . ." ". career career .";
+}
+.career-main-content .career-subheading {
+  background-color: #32383e;
+  color: #f8f9fa;
+  font-size: 2rem;
+  padding: 0.75rem 1.2rem;
+  margin-left: 20px;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 90vw;
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .career-main-content .career-subheading {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .career-main-content .career-subheading {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+.career-main-content .edu-heading {
+  grid-area: education-header;
+  margin-top: 1em;
+}
+.career-main-content .car-heading {
+  grid-area: work-header;
+  padding-bottom: 2em;
 }
 .career-main-content .career-main-title {
   grid-area: title;
   font-size: 2rem;
   text-align: center;
-}
-.career-main-content .btn-edu {
-  grid-area: education-button;
-  width: 88vw;
-  margin-left: 1em;
-  margin-right: 0.2em;
-}
-@media only screen and (min-width: 600px) {
-  .career-main-content .btn-edu {
-    max-width: 300px;
-    margin: 0 auto;
-  }
+  margin-top: 0.5em;
+  padding-bottom: 1.5em;
+  width: 100vw;
 }
 .career-main-content .career-content__partial__body {
   border-bottom: 1px solid black;
@@ -197,6 +219,8 @@ body {
 .career-main-content .career-content__career {
   grid-area: career;
   padding: 2em;
+  padding-top: 0;
+  margin-top: 3em;
   text-align: right;
   font-size: 1.3rem;
 }
