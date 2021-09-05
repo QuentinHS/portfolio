@@ -11,10 +11,10 @@
     <title>Quentin's Portfolio</title>
   </head>
   <body>
-    <header class="hero-banner" id="contact-header">
+    <header class="hero-banner" id="contact-banner">
       <div class="container">
         <nav class="hero-banner__nav">
-          <div class="hero-banner__logo">Logo</div>
+          <div class="hero-banner__logo"><img src="../assets/images/logo-white.png" alt="Quentin's logo"></div>
           <ul class="hero-banner__navbar">
             <li class="hero-banner__navbar__link"><a href="index.html">Home</a></li>
             <li class="hero-banner__navbar__link"><a href="career.html">Career</a></li>
@@ -26,10 +26,32 @@
             <span class="line2"></span>
             <span class="line3"></span>
           </div>
-        </nav> 
+        </nav>
+        <section class="hero-banner__content">
+          <h1>Hi, I'm Quentin</h1>
+          <h2>I'm a freelance web</h2>
+          <h2>developer based in Brisbane</h2>
+          <button class="btn">Get in Touch</button>
+        </section>
+        <section class="hero-banner__icons">
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-instagram-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-github-square"></i>
+        </section>
+      </div>
     </header>
-    <main class="homepage-main-content">
-     
+    <main>
+      <section class="form-container">
+          <h2>Get in touch now</h2>
+          <p>Drop me a line today</p>
+          <form class="contact-form">
+            <input type="text" placeholder="First Name" id="firstName" name="firstName" required>
+            <input type="text" placeholder="Last Name" id="lastName" name="lastName" required>
+            <textarea name="message" id="message" ></textarea>
+            <button type="submit">Send</button>
+          </form>
+      </section>
     </main>
     <footer class="footer">
       <div class="footer-wrapper">
