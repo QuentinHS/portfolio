@@ -1,0 +1,191 @@
+commit 2e515d3137e053f4f131728e7e0758ba2ff06bbb
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sun Sep 5 22:49:19 2021 +1000
+
+    added 384 and 512 SRI
+
+commit 149a7788a5887a3731d8bb2449a8c4edc5ebf6e0
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sun Sep 5 21:06:50 2021 +1000
+
+    fixed validation errors
+
+commit 119a9e1f98fb4c9c0cd521076798cb56d16af1a9
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sun Sep 5 20:59:57 2021 +1000
+
+    added additional commenting of components
+
+commit 47b754f5f761e40aaf1e30be70923e96c110eddf
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sun Sep 5 20:44:47 2021 +1000
+
+    fixed links for footer and header
+
+commit 7f14a4d153deb4b750c7747370751e96df9b0dc8
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sun Sep 5 19:40:43 2021 +1000
+
+    added desktop contact page fixes
+
+commit 51402497214708043e2164678e972a6a43b51aff
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sun Sep 5 19:14:01 2021 +1000
+
+    finished contact desktop styling
+
+commit 3c3bb5246dab133d7f194961f0385913e810dc89
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sun Sep 5 18:54:13 2021 +1000
+
+    finished tablet address card
+
+commit 34d71972a77b5180501c5ae6ced6f1574527d9f0
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sun Sep 5 18:22:20 2021 +1000
+
+    finished mobile contact
+
+commit d202d8ea33aad937245f316ace0493f9f2640ce7
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sun Sep 5 18:01:21 2021 +1000
+
+    added mobile contact form
+
+commit 316d280925f164f54952e3ded36dc730efebbc0d
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sun Sep 5 15:32:48 2021 +1000
+
+    added different blog images
+
+commit ed439e66988f7aaa3023dff522d23840d2197da8
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sun Sep 5 14:41:54 2021 +1000
+
+    added blog desktop views
+
+commit a18279d44c325aaf06e6641ee670f50b000f36e7
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sun Sep 5 02:26:23 2021 +1000
+
+    added blogs
+
+commit 1440ec9832747fee595b1a7075ac74d5ad31fdef
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sun Sep 5 02:05:10 2021 +1000
+
+    fixed career desktop sizing
+
+commit 7f0a6db379f9e1d9716cc40ddc64b7c3a258b0b3
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sat Sep 4 23:30:49 2021 +1000
+
+    added tablet stylings
+
+commit 6d972fb850122930dfad6eb65d3b0ce0c072a318
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sat Sep 4 23:00:33 2021 +1000
+
+    completed mobile career page
+
+commit 77087f62fdabafa5f753200a0ab07ba4fa55ba9f
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sat Sep 4 22:02:52 2021 +1000
+
+    added pdf for download
+
+commit 0f0e474d084a43694bd72c3125fa99ad0d680468
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sat Sep 4 21:12:26 2021 +1000
+
+    added banners for blog and career pages
+
+commit fb1e59c0407901faf3ebf0632f5172d5855bf465
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sat Sep 4 20:50:48 2021 +1000
+
+    added card icons
+
+commit f64d421dc4ce643a1cc6c9aa338d8fa519740f83
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sat Sep 4 01:25:30 2021 +1000
+
+    fixed background image display issues
+
+commit 5365d624db5d0a04002e6184678cd97d2f32ce2b
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sat Sep 4 00:55:11 2021 +1000
+
+    fixed card size issues
+
+commit af1d6ed6c89363d33a4fc2e54938657239e1d50e
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sat Sep 4 00:53:47 2021 +1000
+
+    card flex sizing issues fixed
+
+commit 2dd775b8aec29127c2eedf6249ed35ecfa53fada
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Sat Sep 4 00:35:04 2021 +1000
+
+    card alignment fixes
+
+commit 534e362801758583b95c0d26fd6138228a17a10b
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Fri Sep 3 22:40:03 2021 +1000
+
+    card fixes for homepage
+
+commit 48838a0587c0596537cf059f19815f25c9a3183c
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Fri Sep 3 22:01:23 2021 +1000
+
+    footer refinements/fixed spacing
+
+commit 673915db949bc130509a9d5c34d16c3acbda2e87
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Fri Sep 3 21:37:20 2021 +1000
+
+    added cards and started footer
+
+commit 1c8a76a66c47b1bdc34e62c8e423b5d09e7e6a3b
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Fri Sep 3 20:12:33 2021 +1000
+
+    more nav fixes and started cards
+
+commit f30fe6134f76bbd6f25a5530acd4f10b3621e72c
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Fri Sep 3 15:56:46 2021 +1000
+
+    added button animations
+
+commit 34dc652a44a1b8967305938a32e173ab328f0f41
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Fri Sep 3 15:45:31 2021 +1000
+
+    added homepage about section
+
+commit 6f48cbe65b65076011988078f820537b83c43a8e
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Fri Sep 3 15:10:22 2021 +1000
+
+    mobile nav and header fixes
+
+commit 8df13af3da7af09fcaea2ab6c3d8698d8c4aa5ab
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Fri Sep 3 14:22:15 2021 +1000
+
+    added icons
+
+commit fb650d43b90dbd9f1556b93dce1489f27bf27719
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Fri Sep 3 12:54:16 2021 +1000
+
+    added mobile navigation menu
+
+commit 7169e76f13f8bc53238423c7dbaa13a181f6be43
+Author: QuentinHS <quentin.halysummerfield@gmail.com>
+Date:   Fri Sep 3 11:00:01 2021 +1000
+
+    initial commit - basic structure and layout
