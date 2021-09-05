@@ -1,6 +1,8 @@
 @use "../abstracts/mixins";
 @use "../abstracts/variables";
 
+// Contact Form - Textual Component Number 3
+
 .form-container {
   min-height: 55vh;
   margin-top: 3rem;
@@ -97,6 +99,8 @@
       
 
   }
+
+  // Address Card - Textual Component Number 4
  
   .contact-data {
       color: variables.$light-grey;

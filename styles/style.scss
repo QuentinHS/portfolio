@@ -4,7 +4,6 @@
 @use "core/container";
 @use "abstracts/variables";
 @use "layouts/index";
-@use "layouts/blog";
 @use "layouts/contact";
 @use "layouts/career";
 @use "components/header";
@@ -17,7 +16,7 @@
 @use "components/card";
 @use "components/buttons";
 @use "components/blog-post";
-@use "components/contact-form";
+
 
 
 
