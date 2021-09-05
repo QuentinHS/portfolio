@@ -57,6 +57,12 @@
     }
   }
 
+  @include mixins.respond(desktop) {
+    .contact-form {
+      max-width: 70vw;
+    }
+  }
+
 }
 
 .address-card {
@@ -120,5 +126,13 @@
       }
     }
   }
+
+    @include mixins.respond(desktop) {
+      .contact-bar  {
+        margin-left: 10em;
+       
+        max-width: 30vw;
+      }
+    } 
 
 }

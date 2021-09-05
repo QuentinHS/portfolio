@@ -181,6 +181,11 @@ body {
     margin: 0 auto;
   }
 }
+@media only screen and (min-width: 1000px) {
+  .form-container .contact-form {
+    max-width: 70vw;
+  }
+}
 
 .address-card {
   width: 100%;
@@ -230,6 +235,12 @@ body {
   }
   .address-card .contact-bar p {
     width: 35rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .address-card .contact-bar {
+    margin-left: 10em;
+    max-width: 30vw;
   }
 }
 
