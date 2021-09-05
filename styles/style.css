@@ -129,103 +129,6 @@ body {
   object-fit: cover;
 }
 
-.flex-items {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  text-align: center;
-  height: 100%;
-}
-
-.flex-items > div {
-  padding: 20px;
-}
-
-.flex-columns.flex-reverse .row {
-  flex-direction: row-reverse;
-}
-
-.flex-columns .row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.flex-columns .column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-.flex-columns .column .column-1, .flex-columns .column .column2 {
-  height: 100%;
-}
-.flex-columns img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.flex-columns column-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 30px;
-}
-.flex-columns h2 {
-  font-size: 40px;
-  font-weight: 100;
-}
-.flex-columns h4 {
-  margin-bottom: 10px;
-}
-.flex-columns p {
-  margin: 20px 0;
-}
-
-.section-header {
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.section-header h2 {
-  font-size: 40px;
-  margin: 20px 0;
-}
-
-.section-padding {
-  padding: 20px 20px 40px;
-}
-
-.flex-grid .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-.flex-grid .column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  .flex-items {
-    flex-direction: column;
-  }
-
-  .flex-columns .column, .flex-grid .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-
-  .team img {
-    width: 70%;
-  }
-}
 .career-main-content {
   display: grid;
   grid-template-rows: 5em auto auto 5em;
@@ -638,6 +541,50 @@ body {
   font-size: 1.3rem;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
   margin-top: 1em;
+}
+
+.blog__info h2 {
+  font-size: 2rem;
+}
+.blog__info p {
+  padding: 0.2em 0 0.8em 0;
+  font-size: 1.3rem;
+  color: #868e96;
+}
+.blog__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 1.5em;
+  padding-bottom: 0;
+}
+.blog__text {
+  margin: 1em;
+  font-size: 1.5rem;
+}
+@media only screen and (min-width: 600px) {
+  .blog {
+    padding: 0 2em;
+    width: 95vw;
+  }
+  .blog .flex-container {
+    display: flex;
+  }
+  .blog__text {
+    min-width: 50%;
+    margin-top: 0.5em;
+  }
+  .blog .alternate {
+    order: 2;
+  }
+  .blog .alternate + div {
+    text-align: right;
+  }
+  .blog__img {
+    min-width: 50%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
