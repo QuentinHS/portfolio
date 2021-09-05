@@ -14,7 +14,7 @@
     <header class="hero-banner" id="contact-banner">
       <div class="container">
         <nav class="hero-banner__nav">
-          <div class="hero-banner__logo"><img src="../assets/images/logo-white.png" alt="Quentin's logo"></div>
+          <div class="hero-banner__logo"><img src="../assets/images/logo-white.png" alt="Quentin's logo" /></div>
           <ul class="hero-banner__navbar">
             <li class="hero-banner__navbar__link"><a href="index.html">Home</a></li>
             <li class="hero-banner__navbar__link"><a href="career.html">Career</a></li>
@@ -31,7 +31,7 @@
           <h1>Hi, I'm Quentin</h1>
           <h2>I'm a freelance web</h2>
           <h2>developer based in Brisbane</h2>
-          <button class="btn">Get in Touch</button>
+          <a href="#contact-form"><button class="btn">Get in Touch</button></a>
         </section>
         <section class="hero-banner__icons">
           <i class="fab fa-linkedin"></i>
@@ -42,15 +42,40 @@
       </div>
     </header>
     <main>
-      <section class="form-container">
-          <h2>Get in touch now</h2>
-          <p>Drop me a line today</p>
-          <form class="contact-form">
-            <input type="text" placeholder="First Name" id="firstName" name="firstName" required>
-            <input type="text" placeholder="Last Name" id="lastName" name="lastName" required>
-            <textarea name="message" id="message" ></textarea>
-            <button type="submit">Send</button>
-          </form>
+      <section class="form-container" id="contact-form">
+        <h2>Get in touch now</h2>
+        <p>Drop me a line today</p>
+        <form class="contact-form">
+          <input type="text" placeholder="First Name" id="firstName" name="firstName" required />
+          <input type="text" placeholder="Last Name" id="lastName" name="lastName" required />
+          <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+      <section class="address-card">
+        <h2>Contact</h2>
+        <h3>Quentin Haly-Summerfield</h3>
+        <div class="contact-bar">
+          <div class="icon-container"><i class="fas fa-phone-alt"></i></div>
+          <div>
+            <p class="contact-title">Mobile</p>
+            <p class="contact-data">0435567738</p>
+          </div>
+        </div>
+        <div class="contact-bar">
+          <div class="icon-container"><i class="fas fa-home"></i></div>
+          <div>
+            <p class="contact-title">Address</p>
+            <p class="contact-data">Springfield Lakes, Queensland</p>
+          </div>
+        </div>
+        <div class="contact-bar">
+          <div class="icon-container"><i class="fas fa-envelope"></i></div>
+          <div>
+            <p class="contact-title">Email</p>
+            <p class="contact-data">quentin.halysummerfield@gmail.com</p>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -69,8 +94,6 @@
           <li>
             <a href="#" title="github-social-media"><i class="fab fa-github-square"></i></a>
           </li>
-    
- 
         </ul>
       </div>
     </footer>
