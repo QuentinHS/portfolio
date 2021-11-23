@@ -70,9 +70,11 @@
 }
 
 .address-card {
-  width: 100%;
+
   background: variables.$mid-grey;
   padding: 3em;
+ 
+
   h2 {
      font-size: variables.$sub-header;
       color: variables.$lightest-grey;
@@ -154,9 +156,9 @@
         margin-left: 4.8em;
       }
       .contact-bar  {
-        margin-left: 10em;
+        margin-left: 22em;
         
-        max-width: 30vw;
+        max-width: 20vw;
       }
     } 
 

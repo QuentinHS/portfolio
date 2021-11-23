@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="This is the portfolio of the Brisbane-based web developer Quentin Haly-Summerfield" />
     <meta name="robots" content="all" />
-     <link rel="stylesheet" href="../styles/style.css" integrity="sha384-PNuLcmwumnFiz33Onxgd65CWsevN/sOLl0BcSy0sU5x4gqXOpgZGksA287isws5U" />
-     <link rel="stylesheet" href="../styles/style.css" integrity="sha512-X0JDgLjnxuQLrJatMtDs7SNQZQhWGDcdbSdkM+1eAFfRq+oLV1C+2T27ulM5vuo7jAEwRXhwdsyn
-5CqnHQ54rA==" />
+     <link rel="stylesheet" href="../styles/style.css"  />
+
 
     <title>Quentin's Portfolio</title>
   </head>
@@ -50,36 +49,40 @@
       <section class="form-container" id="contact-form">
         <h2>Get in touch now</h2>
         <p>Drop me a line today</p>
-        <form class="contact-form">
-          <input type="text" placeholder="First Name" id="firstName" name="firstName" required />
-          <input type="text" placeholder="Last Name" id="lastName" name="lastName" required />
+        <form class="contact-form" data-netlify="true" name="contact" method="POST">
+          <input type="text" placeholder="Name" id="name" name="name" required />
+          <input type="email" placeholder="Email" id="email" name="email" required />
           <textarea name="message" id="message" placeholder="Enter your message"></textarea>
           <button type="submit">Send</button>
         </form>
       </section>
       <!-- Address Card - Textual Component 4 -->
       <section class="address-card">
-        <h2>Contact</h2>
-        <h3>Quentin Haly-Summerfield</h3>
-        <div class="contact-bar">
-          <div class="icon-container"><i class="fas fa-phone-alt"></i></div>
-          <div>
-            <p class="contact-title">Mobile</p>
-            <p class="contact-data">0435567738</p>
-          </div>
+        <div class="address-details" id="more-specfic">
+          <h2>Contact</h2>
+          <h3>Quentin Haly-Summerfield</h3>
         </div>
-        <div class="contact-bar">
-          <div class="icon-container"><i class="fas fa-home"></i></div>
-          <div>
-            <p class="contact-title">Address</p>
-            <p class="contact-data">Springfield Lakes, Queensland</p>
+        <div>
+          <div class="contact-bar">
+            <div class="icon-container"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <p class="contact-title">Mobile</p>
+              <p class="contact-data">0435567738</p>
+            </div>
           </div>
-        </div>
-        <div class="contact-bar">
-          <div class="icon-container"><i class="fas fa-envelope"></i></div>
-          <div>
-            <p class="contact-title">Email</p>
-            <p class="contact-data">quentin.halysummerfield@gmail.com</p>
+          <div class="contact-bar">
+            <div class="icon-container"><i class="fas fa-home"></i></div>
+            <div>
+              <p class="contact-title">Address</p>
+              <p class="contact-data">Springfield Lakes, Queensland</p>
+            </div>
+          </div>
+          <div class="contact-bar">
+            <div class="icon-container"><i class="fas fa-envelope"></i></div>
+            <div>
+              <p class="contact-title">Email</p>
+              <p class="contact-data">quentin.halysummerfield@gmail.com</p>
+            </div>
           </div>
         </div>
       </section>
@@ -104,13 +107,7 @@
       </div>
     </footer>
 
-         <script src="../assets/scripts/app.js" integrity="sha384-ZsWG/Bw1itkRANYsQe+87pkovUIedpCLI2IZhN1ohvId80stl1BStYP2ILNwfikN"></script>
-    <script
-      src="../assets/scripts/app.js"
-      integrity="sha512-QAhWmlyOdgWcz6vwVW715kUVl71rPX+jMtp8i81d4TGkULCvPrHLIPAZU9RUDmZIj2sQiYcYI0Op
-ousJGvyHTw=="
-    ></script>
-    <script src="https://kit.fontawesome.com/2351e1defe.js" integrity="sha384-oV1YhB3inn8c51yUn1xwvZNYO1EhkPtcNsMdzE5PhqggWtdvcuJvpp4aCkr5JO51" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/2351e1defe.js" integrity="sha512-ZayGzeHXTwWKBdD0Q99z+jFdg+iZdgyqi+8AHeJ70jLKXKn46mjJFOg1RX/UEQYjP09YJywPXNS/CsVJn2ZB2Q==" crossorigin="anonymous"></script>
+    <script src="../assets/scripts/app.js" ></script>
+    <script src="https://kit.fontawesome.com/2351e1defe.js" crossorigin="anonymous"></script>
   </body>
 </html>

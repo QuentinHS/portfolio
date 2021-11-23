@@ -190,7 +190,6 @@ body {
 }
 
 .address-card {
-  width: 100%;
   background: #868e96;
   padding: 3em;
 }
@@ -257,8 +256,8 @@ body {
     margin-left: 4.8em;
   }
   .address-card .contact-bar {
-    margin-left: 10em;
-    max-width: 30vw;
+    margin-left: 22em;
+    max-width: 20vw;
   }
 }
 
